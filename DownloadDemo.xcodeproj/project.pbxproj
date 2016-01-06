@@ -70,9 +70,9 @@
 			children = (
 				53D1420C1C3D884D0051A7E9 /* DownloadDemo */,
 				53D142261C3D884D0051A7E9 /* DownloadDemoTests */,
-				53D1420B1C3D884D0051A7E9 /* Products */,
-				7D234D042A1C85E77C70807E /* Pods */,
 				6050ADA1F1E5438D86340D44 /* Frameworks */,
+				7D234D042A1C85E77C70807E /* Pods */,
+				53D1420B1C3D884D0051A7E9 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,15 +88,15 @@
 		53D1420C1C3D884D0051A7E9 /* DownloadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				53D1420D1C3D884D0051A7E9 /* Supporting Files */,
+				53D142191C3D884D0051A7E9 /* Assets.xcassets */,
 				53D142101C3D884D0051A7E9 /* DDAppDelegate.h */,
 				53D142111C3D884D0051A7E9 /* DDAppDelegate.m */,
 				53D142131C3D884D0051A7E9 /* DDViewController.h */,
 				53D142141C3D884D0051A7E9 /* DDViewController.m */,
-				53D142161C3D884D0051A7E9 /* Main.storyboard */,
-				53D142191C3D884D0051A7E9 /* Assets.xcassets */,
-				53D1421B1C3D884D0051A7E9 /* LaunchScreen.storyboard */,
 				53D1421E1C3D884D0051A7E9 /* Info.plist */,
-				53D1420D1C3D884D0051A7E9 /* Supporting Files */,
+				53D1421B1C3D884D0051A7E9 /* LaunchScreen.storyboard */,
+				53D142161C3D884D0051A7E9 /* Main.storyboard */,
 			);
 			path = DownloadDemo;
 			sourceTree = "<group>";
@@ -106,7 +106,7 @@
 			children = (
 				53D1420E1C3D884D0051A7E9 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		53D142261C3D884D0051A7E9 /* DownloadDemoTests */ = {
@@ -320,6 +320,7 @@
 				53D142171C3D884D0051A7E9 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		53D1421B1C3D884D0051A7E9 /* LaunchScreen.storyboard */ = {
@@ -328,6 +329,7 @@
 				53D1421C1C3D884D0051A7E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
