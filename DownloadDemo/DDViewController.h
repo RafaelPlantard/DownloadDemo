@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+/*! @brief The controller for the first view. */
+@interface DDViewController : UIViewController
 
 
 @end
-

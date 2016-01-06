@@ -6,13 +6,13 @@
 //  Copyright © 2016 Data Empire. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DDViewController.h"
 
-@interface ViewController ()
+@interface DDViewController ()
 
 @end
 
-@implementation ViewController
+@implementation DDViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
